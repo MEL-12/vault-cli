@@ -1,4 +1,4 @@
-# 🔐 Vault CLI — AES-256 Password Manager
+#  Vault CLI — AES-256 Password Manager
 
 A command-line password manager that stores credentials securely using 
 AES-256-GCM encryption and PBKDF2 key derivation. Passwords are saved 
