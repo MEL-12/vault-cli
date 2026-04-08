@@ -45,9 +45,7 @@ pip install -r requirements.txt
 python3 vault.py
 ```
 
-
 ## How It Works
-
 When you run the app for the first time, it asks for a master password.
 This password is never saved anywhere. Instead it is passed through
 PBKDF2-SHA256 with a random salt and 600,000 iterations to derive a
