@@ -4,7 +4,6 @@ A command-line password manager that stores credentials securely using
 AES-256-GCM encryption and PBKDF2 key derivation. Passwords are saved 
 in an encrypted local file and never stored in plain text.
 
----
 
 ## Features
 
@@ -14,7 +13,6 @@ in an encrypted local file and never stored in plain text.
 - All data stored locally in an encrypted binary file
 - Simple CLI interface with add, get, list and delete commands
 
----
 
 ## Technologies Used
 
@@ -22,7 +20,6 @@ in an encrypted local file and never stored in plain text.
 - `cryptography` library (AES-256-GCM, PBKDF2)
 - Git and GitHub for version control
 
----
 
 ## Project Setup
 
@@ -48,7 +45,6 @@ pip install -r requirements.txt
 python3 vault.py
 ```
 
----
 
 ## How It Works
 
@@ -62,7 +58,6 @@ Every time you open the vault, your master password is used to
 re-derive the same key and decrypt the file. If the wrong password
 is entered, decryption fails and nothing is revealed.
 
----
 
 ## Commands
 
@@ -73,7 +68,3 @@ is entered, decryption fails and nothing is revealed.
 | `list`   | List all saved sites               |
 | `delete` | Remove a saved entry               |
 | `quit`   | Exit the application               |
-
----
-
-## Project Structure
